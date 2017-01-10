@@ -4,7 +4,7 @@
         <swiper class="swiper_box" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
                 autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
             <block wx:for="{{images}}">
-                <swiper-item>
+                <swiper-item bindtap="goDetail">
                     <image src="{{item.picurl}}" class="slide-image"/>
                 </swiper-item>
             </block>

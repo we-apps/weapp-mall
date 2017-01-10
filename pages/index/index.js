@@ -12,7 +12,12 @@ Page({
 
     //事件处理函数
     swiperchange: function(e) {
-        //console.log(e.detail.current)
+        // console.log(e.detail.current);
+    },
+
+    //事件处理函数
+    goDetail: function() {
+        console.log("tap");
     },
 
     onLoad: function() {
