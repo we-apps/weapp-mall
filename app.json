@@ -6,7 +6,13 @@
     "pages/my/index",
     "pages/details/index",
     "pages/brand/index",
-    "pages/list/index"
+    "pages/list/index",
+    "pages/order/order",
+    "pages/voucher/voucher",
+    "pages/package/package",
+    "pages/address/address",
+    "pages/service/service",
+    "pages/help/help"
   ],
   "window":{
     "backgroundTextStyle":"white",
