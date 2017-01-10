@@ -9,7 +9,7 @@
     "pages/list/index",
     "pages/order/order",
     "pages/voucher/voucher",
-    "pages/package/package",
+    "pages/group/group",
     "pages/address/address",
     "pages/service/service",
     "pages/help/help"

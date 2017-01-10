@@ -37,7 +37,7 @@ Page( {
     }
     if(id=='3'){
       wx.navigateTo({
-        // url:"../package/package"
+        // url:"../group/group"
       });
     }
   }
