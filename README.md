@@ -12,18 +12,23 @@
 
 ### 项目截图:
 
-<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/screenshorts-01.png" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/1.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/2.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/3.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/4.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/5.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/6.PNG" width="320px" style="display:inline;">
+
+<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/7.PNG" width="320px" style="display:inline;">
     
-<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/screenshorts-05.png" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/screenshorts-02.png" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/screenshorts-03.png" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/weapp-mall/blob/master/images/screenshots/screenshorts-04.png" width="320px" style="display:inline;">
 
 ### 开发环境：
-微信web开发者工具 v0.9.092300
+微信web开发者工具 v0.12.130400
 
 ### 项目地址：
 https://github.com/Alex-0407/weapp-mall/

@@ -16,13 +16,76 @@ page{
     padding: 0 30rpx;
 }
 .shopping_container .title{
-    margin: 20rpx 0;
+    margin: 20px 0;
     font-weight: bold;
     color: #333;
 }
 
 .shopping_container .reason{
-    margin: 20rpx 0;
+    margin: 20px 0;
     color: #939393;
     line-height: 22px;
+}
+
+.shopping_container .price{
+    margin: 15px 0;
+    color: red;
+    line-height: 22px;
+}
+
+/*stepper容器*/
+.stepper {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 80px;
+    height: 26px;
+    margin:0 auto;
+    position: absolute;
+    left: 10px;
+}
+
+
+/*加号与减号*/
+.stepper text {
+    width: 19px;
+    line-height: 26px;
+    text-align: center;
+    float: left;
+}
+
+
+/*数值*/
+.stepper input {
+    float: left;
+    margin: 0 auto;
+    width: 40px;
+    height: 26px;
+    text-align: center;
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*普通样式*/
+.stepper .normal{
+    color: black;
+}
+
+/*禁用样式*/
+.stepper .disabled{
+    color: #ccc;
+}
+
+.buy-text {
+    position: fixed;
+    bottom: 0;
+    line-height: 80rpx;
+    text-align: center;
+    width:100%;
+    height: 80rpx;
+    background-color: #f60;
+    color: white;
+    font-size: 36rpx;
+    border-radius: 0;
+    border: 0;
 }

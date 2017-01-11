@@ -14,10 +14,18 @@
     <view class="shopping_container">
         <view class="title">{{shopppingDetails.title}}</view>
         <view class="reason">{{shopppingDetails.reason}}</view>
+        <view class="price">¥{{shopppingDetails.ourprice}}</view>
+        <view class="buy">
+            <!-- WXStepper -->
+            <view class="stepper">
+                <!-- 减号 -->
+                <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+                <!-- 数值 -->
+                <input type="number" bindchange="bindManual" value="{{num}}" />
+                <!-- 加号 -->
+                <text class="normal" bindtap="bindPlus">+</text>
+            </view>
+        </view>
     </view>
-
-    <view>
-        <view></view>
-    </view>
-
+    <view class="buy-text">立即购买</view>
 </view>
