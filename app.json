@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/classify/index",
     "pages/cart/index",
+    "pages/cart/cart",
     "pages/my/index",
     "pages/details/index",
     "pages/brand/index",

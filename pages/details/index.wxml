@@ -27,5 +27,5 @@
             </view>
         </view>
     </view>
-    <view class="buy-text">立即购买</view>
+    <view class="buy-text" bandtap="bindCart">加入购物车</view>
 </view>

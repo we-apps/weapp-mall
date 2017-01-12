@@ -79,6 +79,8 @@ Page({
         if(num == 1) {
           this.setData({minusStatus:"disabled"})
         }
-
-        }
+    },
+    bindCart:function() {
+        // body...
+    }
 })
