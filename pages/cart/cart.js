@@ -106,6 +106,7 @@ Page({
     this.setData({
       list:list
     });
+    console.log("list: " + this.data.list);
   },
   //测试临时数据
   tempData:function(){
