@@ -68,7 +68,7 @@ Page({
 		this.setData({
 			carts: carts
 		});
-		console.log(this.data.carts);
+		// console.log(this.data.carts);
 	},
 	bindCheckbox: function(e) {
 		/*绑定点击事件，将checkbox样式改变为选中与非选中*/
@@ -156,7 +156,7 @@ Page({
 	    }
 	},
 	touchM:function(e){
-		console.log(e);
+		// console.log(e);
 	    if(e.touches.length==1){
 	      //手指移动时水平方向位置
 	      var moveX = e.touches[0].clientX;
@@ -175,7 +175,7 @@ Page({
 	      }
 	      //获取手指触摸的是哪一项
 	      var index = e.currentTarget.dataset.index;
-	      console.log("index :" + index);
+	      // console.log("index :" + index);
 	      var carts = this.data.carts;
 	      carts[index].txtStyle = txtStyle;
 	      //更新列表的状态
@@ -234,6 +234,6 @@ Page({
 	    this.setData({
 	      carts:carts
 	    });
-	    console.log("carts: " + this.data.carts);
+	    // console.log("carts: " + this.data.carts);
 	}
 })
