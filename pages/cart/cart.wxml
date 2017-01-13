@@ -1,11 +1,41 @@
-<view class="page item-box">
-  <view class="items">
-    <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
-    
-      <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt">
-      <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>{{item.txt}}</view>
-      <view data-index="{{index}}" bindtap = "delItem" class="inner del">删除</view>
-    </view>
-  </view>
+<view class="container carts-list">
+    <view wx:for="{{carts}}" class="carts-item" wx:key="{{index}}" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}">
+    	<!-- 复选框图标 -->
+		<icon wx:if="{{item.selected}}" type="success_circle" size="20" bindtap="bindCheckbox" data-index="{{index}}"/>
+		<icon wx:else type="circle" size="20" bindtap="bindCheckbox" data-index="{{index}}"/>
+		<!-- 缩略图 -->
+		<image class="carts-image" src="{{item.image}}" mode="aspectFill"/>
+		<view class="carts-text">
+			<!-- 商品标题 -->
+			<text class="carts-title">{{item.title}}</text>
+				<view class="carts-subtitle">
+				<!-- 价格 -->
+				  <text class="carts-price">{{item.sum}}</text>
+				  <!-- 数量加减 -->
+				  <view>
+				      <view class="stepper">
+						<!-- 减号 -->
+						<text class="{{minusStatuses[index]}}" data-index="{{index}}" bindtap="bindMinus">-</text>
+						<!-- 数值 -->
+						<input type="number" data-index="{{index}}" bindchange="bindManual" value="{{item.num}}" />
+						<!-- 加号 -->
+						<text class="normal" data-index="{{index}}" bindtap="bindPlus">+</text>
+					  </view>
+				  </view>
+			</view>
+		</view>
+		<view data-index="{{index}}" bindtap = "delItem" class="inner del">删除</view>
+	</view>
+	<view class="carts-footer">
+		<view bindtap="bindSelectAll">
+			<icon wx:if="{{selectedAllStatus}}" type="success_circle" size="20"/>
+			<icon wx:else type="circle" size="20" />
+			<text>全选</text>
+			<text>{{total}}</text>
+		</view>
+		<view class="button" bindtap="bindCheckout">立即结算</view>
+	</view>
+	<toast hidden="{{toastHidden}}" bindchange="bindToastChange">
+		{{toastStr}}
+	</toast>
 </view>
-

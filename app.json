@@ -39,7 +39,7 @@
       "selectedIconPath": "images/footer-icon-02-active.png",
       "text": "分类"
     }, {
-      "pagePath": "pages/cart/index",
+      "pagePath": "pages/cart/cart",
       "iconPath": "images/footer-icon-03.png",
       "selectedIconPath": "images/footer-icon-03-active.png",
       "text": "购物车"

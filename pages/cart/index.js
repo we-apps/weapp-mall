@@ -135,7 +135,6 @@ Page({
 		// this.setData( {
 		// 	carts: app.cartInfo.carts
 		// })
-		// this.initEleWidth();
 		this.sum();
 	},
 	sum: function() {
