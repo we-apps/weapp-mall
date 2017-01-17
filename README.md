@@ -29,3 +29,14 @@
 
 ### 项目地址：
 https://github.com/Alex-0407/weapp-mall/
+
+### 最新技术福利
+
+React Native 0-11集视频免费下载地址： 
+百度云盘链接: 链接: https://pan.baidu.com/s/1boPUy9D 关注微信公众号"ionic实战"，回复“RN提取码”领取百度云盘链接提取码。
+
+#### 欢迎关注我的微信公众号 ionic实战 ，获取更多学习资源
+
+* 扫一扫下面的二维码或者搜索"ionic实战"
+
+<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/src/assets/img/qrcode_for_gh_ionic2.jpg" width="320px" style="display:inline;">
