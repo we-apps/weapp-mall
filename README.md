@@ -30,7 +30,7 @@
 ### 项目地址：
 https://github.com/Alex-0407/weapp-mall/
 
-###参考项目地址 表示感谢
+### 参考项目地址 
 https://github.com/liuxuanqiang/wechat-weapp-mall
 
 ### 最新技术福利
